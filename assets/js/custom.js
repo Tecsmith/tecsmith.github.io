@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".middot-inject").forEach(function(e){let t=e.textContent;e.classList.remove("middot-inject"),t=t.replace(/[ -]/gi,'<i class="middot"></i>'),e.innerHTML=t})});
